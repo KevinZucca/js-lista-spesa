@@ -1,4 +1,4 @@
-const shoppingList = ["pane", "latte", "farina", "uova", "altro"];
+const shoppingList = ["Pane", "Latte", "Farina", "Uova", "Altro"];
 const listContainer = document.getElementById("list-container");
 
  
@@ -9,6 +9,7 @@ while (index < shoppingList.length + 1 - 1) {
     let listItem = document.createElement("li");
     listContainer.append(listItem);
     listItem.innerHTML = shoppingList[index];
+    listItem.classList.add ("list-item")
     index++;
 }
 

@@ -8,7 +8,20 @@
     display: flex;
     justify-content: center;
     margin: 50px;
-    
-
 }
 
+#main-container img {
+    position: relative;
+    width: 500px;
+}
+
+#main-container ul {
+    position: absolute;
+    top: 30%;
+}
+
+.list-item {
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 3px;;
+}
